@@ -2,10 +2,32 @@
     box-sizing: border-box;
 }
 
-.main { 
+.main-hero { 
     width: 100%;
     background-position: center;
     background-size: cover;
     height: auto;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(Images/purple.jpg)
     }
+
+.container-one {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100vw;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+@media (max-width: 760px) {
+    #second  {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+    }
+    #third {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+    }
+}
