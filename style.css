@@ -32,3 +32,13 @@
         grid-row: 3 / 4;
     }
 }
+
+.navbarimg {
+    viewBox: 0 0 200 200;
+    height: 100px;
+}
+
+.navbar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
