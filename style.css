@@ -42,3 +42,36 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
 }
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    justify-content: center; /* Center grid items horizontally */
+    align-items: center; /* Align grid items vertically */
+    gap: 0.5rem; /* Reduce the spacing between cards */
+    width: 100%; /* Full-width container */
+    padding: 0 1rem; /* Optional: Add slight padding for balance */
+    box-sizing: border-box; /* Prevent padding from affecting width */
+}
+
+.team .card {
+    width: 100%; /* Cards fill the entire grid column */
+    max-width: 20rem; /* Optional: Limit the max width of each card */
+    margin: 0; /* Remove extra margins that might add gaps */
+}
+
+.team img {
+    height: 200px;
+    object-fit: cover;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+h5 {
+    font-weight: bolder;
+}
+
+
+
